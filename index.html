@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Styles/container.css">
+    <link rel="stylesheet" href="Assets/Styles/style.css">
+    <title>Ryzenix | Tech Blog</title>
+</head>
+<body>
+    <header>
+        <nav class="container flex">
+            <section class="navbar-toggle column">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </section>
+            <section class="logo">
+                <a href="#">
+                    <h1><span>R</span>yzeni<span>x</span></h1>
+                </a>
+            </section>
+            <ul class="flex">
+                <li class="nav-link">
+                    <a href="#">Home</a>
+                </li>
+                <li class="dropdown">
+                    <div class="dropdown-toggle flex">
+                        <span>Category</span>
+                        <svg class="dropdown-icon" width="15" height="15" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <line x1="6.33974" y1="18.5547" x2="37.5149" y2="55.7078" stroke="#FCFCFC" stroke-width="9" stroke-linecap="round"/>
+                                <line x1="38.4453" y1="55.7078" x2="69.6205" y2="18.5547" stroke="#FCFCFC" stroke-width="9" stroke-linecap="round"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="75" height="75" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li><a href="#front-end">Front-end</a></li>
+                        <li><a href="#back-end">Back-end</a></li>
+                        <li><a href="#cloud">Cloud Computing</a></li>
+                        <li><a href="#linux">Linux</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link nav-link-mobile">
+                    <a href="#front-end">Front-end</a>
+                </li>
+                <li class="nav-link nav-link-mobile">
+                    <a href="#back-end">Back-end</a>
+                </li>
+                <li class="nav-link nav-link-mobile">
+                    <a href="#cloud">Cloud Computing</a>
+                </li>
+                <li class="nav-link nav-link-mobile">
+                    <a href="#linux">Linux</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#aboutMe">About</a>
+                </li>
+            </ul>
+            <section class="search-toggle">
+                <svg width="24" height="24" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                        <circle cx="31.5" cy="28.5" r="23.25" stroke="#FCFCFC" stroke-width="8.5"/>
+                        <line x1="65.4384" y1="69.5858" x2="46.4762" y2="46.9875" stroke="#FCFCFC" stroke-width="8.5" stroke-linecap="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0">
+                            <rect width="75" height="75" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+                <div class="close flex column">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </section>
+            <section class="search">
+                <div class="triangle"></div>
+                <input type="search" name="search" id="search-box" placeholder="Search something...">
+                <button type="submit" class="search-button">
+                    <svg width="100%" height="100%" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <circle cx="31.5" cy="28.5" r="23.25" stroke="#FCFCFC" stroke-width="8.5"/>
+                            <line x1="65.4384" y1="69.5858" x2="46.4762" y2="46.9875" stroke="#FCFCFC" stroke-width="8.5" stroke-linecap="round"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="75" height="75" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </button>
+            </section>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="card featured flex">
+            <section class="featured-1 flex column">
+                <section class="label label-1">Front-end</section>
+                <h2><a href="#">Bootstrap 5: Navigation Bar</a></h2>
+                <section class="info flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              clip-path: url(#clip-Avatar_Icon_Black);
+                            }
+                      
+                            .cls-2, .cls-3, .cls-6 {
+                              fill: none;
+                            }
+                      
+                            .cls-3 {
+                              stroke: #303030;
+                              stroke-width: 6px;
+                            }
+                      
+                            .cls-4, .cls-5 {
+                              stroke: none;
+                            }
+                      
+                            .cls-5 {
+                              fill: #303030;
+                            }
+                          </style>
+                          <clipPath id="clip-Avatar_Icon_Black">
+                            <rect width="75" height="75"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                          <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                            <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                            <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                          </g>
+                          <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                            <circle class="cls-4" cx="15" cy="15" r="15"/>
+                            <circle class="cls-6" cx="15" cy="15" r="12"/>
+                          </g>
+                        </g>
+                      </svg>
+                    <p>Indra P.</p>
+                    <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                        <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <p>1 Juli 2021</p>
+                </section>
+            </section>
+            
+            <div class="flex column">
+                <section class="featured-2 flex column">
+                    <section class="label label-2">Back-end</section>
+                    <h2><a href="#">PHP Basic: Function</a></h2>
+                    <section class="info flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                          </svg>
+                        <p>Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#fcfcfc" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#fcfcfc" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#fcfcfc" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                    </section>
+                </section>
+
+                <div class="flex">
+                    <section class="featured-3 flex column">
+                        <section class="label label-3">Cloud</section>
+                        <h2><a href="#">Automasi Dengan AWS CloudFormation</a></h2>
+                        <section class="info flex">
+                            <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                                <defs>
+                                  <style>
+                                    .cls-1 {
+                                      clip-path: url(#clip-Avatar_Icon_Black);
+                                    }
+                              
+                                    .cls-2, .cls-3, .cls-6 {
+                                      fill: none;
+                                    }
+                              
+                                    .cls-3 {
+                                      stroke: #303030;
+                                      stroke-width: 6px;
+                                    }
+                              
+                                    .cls-4, .cls-5 {
+                                      stroke: none;
+                                    }
+                              
+                                    .cls-5 {
+                                      fill: #303030;
+                                    }
+                                  </style>
+                                  <clipPath id="clip-Avatar_Icon_Black">
+                                    <rect width="75" height="75"/>
+                                  </clipPath>
+                                </defs>
+                                <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                                  <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                    <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                    <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                                  </g>
+                                  <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                    <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                    <circle class="cls-6" cx="15" cy="15" r="12"/>
+                                  </g>
+                                </g>
+                              </svg>
+                            <p class="author">Indra P.</p>
+                            <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                                <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                                <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            </svg>
+                            <p>1 Juli 2021</p>
+                        </section>
+                    </section>
+
+                    <section class="featured-4 flex column">
+                        <section class="label label-4">Linux</section>
+                        <h2><a href="#">Menginstall Libre Office di Garuda Linux</a></h2>
+                        <section class="info flex">
+                            <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                                <defs>
+                                  <style>
+                                    .cls-1 {
+                                      clip-path: url(#clip-Avatar_Icon_Black);
+                                    }
+                              
+                                    .cls-2, .cls-3, .cls-6 {
+                                      fill: none;
+                                    }
+                              
+                                    .cls-3 {
+                                      stroke: #303030;
+                                      stroke-width: 6px;
+                                    }
+                              
+                                    .cls-4, .cls-5 {
+                                      stroke: none;
+                                    }
+                              
+                                    .cls-5 {
+                                      fill: #303030;
+                                    }
+                                  </style>
+                                  <clipPath id="clip-Avatar_Icon_Black">
+                                    <rect width="75" height="75"/>
+                                  </clipPath>
+                                </defs>
+                                <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                                  <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                    <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                    <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                                  </g>
+                                  <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                    <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                    <circle class="cls-6" cx="15" cy="15" r="12"/>
+                                  </g>
+                                </g>
+                              </svg>
+                            <p class="author">Indra P.</p>
+                            <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="37.5" cy="37.5" r="32.75" stroke="#fcfcfc" stroke-width="7.5"/>
+                                <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#fcfcfc" stroke-width="6" stroke-linecap="round"/>
+                                <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#fcfcfc" stroke-width="6" stroke-linecap="round"/>
+                            </svg>
+                            <p>1 Juli 2021</p>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </article>
+        <div class="main flex">
+          <section class="left flex column">
+            <article id="front-end" class="card">
+              <section class="headline flex">
+                <h2>Front-end</h2>
+                <a href="#">Show More</a>
+              </section>
+              <hr>
+              <section class="content flex">
+                <section class="post1 flex column">
+                  <section class="label label-1">Front-end</section>
+                  <h3><a href="#">Bootstrap 5: Navigation Bar</a></h3>
+                  <section class="info flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                          <defs>
+                            <style>
+                              .cls-1 {
+                                clip-path: url(#clip-Avatar_Icon_Black);
+                              }
+                        
+                              .cls-2, .cls-3, .cls-6 {
+                                fill: none;
+                              }
+                        
+                              .cls-3 {
+                                stroke: #303030;
+                                stroke-width: 6px;
+                              }
+                        
+                              .cls-4, .cls-5 {
+                                stroke: none;
+                              }
+                        
+                              .cls-5 {
+                                fill: #303030;
+                              }
+                            </style>
+                            <clipPath id="clip-Avatar_Icon_Black">
+                              <rect width="75" height="75"/>
+                            </clipPath>
+                          </defs>
+                          <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                            <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                              <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                              <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                            </g>
+                            <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                              <circle class="cls-4" cx="15" cy="15" r="15"/>
+                              <circle class="cls-6" cx="15" cy="15" r="12"/>
+                            </g>
+                          </g>
+                        </svg>
+                      <p>Indra P.</p>
+                      <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                          <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                          <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                      </svg>
+                      <p>1 Juli 2021</p>
+                  </section>
+                </section>
+                <div class="flex column">
+                  <section class="post2 flex">
+                    <img src="Assets/Image/front-end-2.png" alt="">
+                    <section>
+                      <h3><a href="#">Nesting Selector Pada SCSS</a></h3>
+                      <section class="info flex">
+                        <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="author">Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                      </section>
+                    </section>
+                  </section>
+                  <section class="post3 flex">
+                    <img src="Assets/Image/front-end-3.png" alt="">
+                    <section>
+                      <h3><a href="#">Membuat To Do App Dengan JavaScript</a></h3>
+                      <section class="info flex">
+                        <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="author">Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                      </section>
+                    </section>
+                  </section>
+                  <section class="post4 flex">
+                    <img src="Assets/Image/front-end-4.png" alt="">
+                    <section>
+                      <h3><a href="#">Mengenal Arrow Function Pada ES6</a></h3>
+                      <section class="info flex">
+                        <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="author">Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                      </section>
+                    </section>
+                  </section>
+                  <section class="post5 flex">
+                    <img src="Assets/Image/front-end-5.jpg" alt="">
+                    <section>
+                      <h3><a href="#">Perbedaan Session Storage & Local Storage</a></h3>
+                      <section class="info flex">
+                        <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="author">Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                      </section>
+                    </section>
+                  </section>
+                </div>
+              </section>
+            </article>
+            <div class="flex">
+              <article id="back-end" class="card">
+                <section class="headline flex">
+                  <h2>Back-end</h2>
+                  <a href="#">Show More</a>
+                </section>
+                <hr>
+                <section class="content flex column">
+                  <section class="post1 flex column">
+                    <section class="label label-2">Back-end</section>
+                    <h3><a href="#">PHP Basic: Function</a></h3>
+                    <section class="info flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              clip-path: url(#clip-Avatar_Icon_White);
+                            }
+                      
+                            .cls-2, .cls-3, .cls-6 {
+                              fill: none;
+                            }
+                      
+                            .cls-3 {
+                              stroke: #fcfcfc;
+                              stroke-width: 6px;
+                            }
+                      
+                            .cls-4, .cls-5 {
+                              stroke: none;
+                            }
+                      
+                            .cls-5 {
+                              fill: #fcfcfc;
+                            }
+                          </style>
+                          <clipPath id="clip-Avatar_Icon_White">
+                            <rect width="75" height="75"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Avatar_Icon_White" data-name="Avatar Icon White" class="cls-1">
+                          <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                            <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                            <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                          </g>
+                          <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                            <circle class="cls-4" cx="15" cy="15" r="15"/>
+                            <circle class="cls-6" cx="15" cy="15" r="12"/>
+                          </g>
+                        </g>
+                      </svg>
+                      <p>Indra P.</p>
+                      <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#fcfcfc" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#fcfcfc" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#fcfcfc" stroke-width="6" stroke-linecap="round"/>
+                      </svg>
+                      <p>1 Juli 2021</p>
+                    </section>
+                  </section>
+                  <div class="flex column">
+                    <section class="post2 flex">
+                      <img src="Assets/Image/back-end-2.png" alt="">
+                      <section>
+                        <h3><a href="#">PHP Basic: Array & Object</a></h3>
+                        <section class="info flex">
+                          <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    clip-path: url(#clip-Avatar_Icon_Black);
+                                  }
+                            
+                                  .cls-2, .cls-3, .cls-6 {
+                                    fill: none;
+                                  }
+                            
+                                  .cls-3 {
+                                    stroke: #303030;
+                                    stroke-width: 6px;
+                                  }
+                            
+                                  .cls-4, .cls-5 {
+                                    stroke: none;
+                                  }
+                            
+                                  .cls-5 {
+                                    fill: #303030;
+                                  }
+                                </style>
+                                <clipPath id="clip-Avatar_Icon_Black">
+                                  <rect width="75" height="75"/>
+                                </clipPath>
+                              </defs>
+                              <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                                <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                  <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                  <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                                </g>
+                                <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                  <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                  <circle class="cls-6" cx="15" cy="15" r="12"/>
+                                </g>
+                              </g>
+                          </svg>
+                          <p class="author">Indra P.</p>
+                          <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                              <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                              <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                          </svg>
+                          <p>1 Juli 2021</p>
+                        </section>
+                      </section>
+                    </section>
+                    <section class="post3 flex">
+                      <img src="Assets/Image/back-end-3.png" alt="">
+                      <section>
+                        <h3><a href="#">PHP Basic: Syntax, Data Type, & Operator</a></h3>
+                        <section class="info flex">
+                          <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    clip-path: url(#clip-Avatar_Icon_Black);
+                                  }
+                            
+                                  .cls-2, .cls-3, .cls-6 {
+                                    fill: none;
+                                  }
+                            
+                                  .cls-3 {
+                                    stroke: #303030;
+                                    stroke-width: 6px;
+                                  }
+                            
+                                  .cls-4, .cls-5 {
+                                    stroke: none;
+                                  }
+                            
+                                  .cls-5 {
+                                    fill: #303030;
+                                  }
+                                </style>
+                                <clipPath id="clip-Avatar_Icon_Black">
+                                  <rect width="75" height="75"/>
+                                </clipPath>
+                              </defs>
+                              <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                                <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                  <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                  <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                                </g>
+                                <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                  <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                  <circle class="cls-6" cx="15" cy="15" r="12"/>
+                                </g>
+                              </g>
+                          </svg>
+                          <p class="author">Indra P.</p>
+                          <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                              <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                              <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                          </svg>
+                          <p>1 Juli 2021</p>
+                        </section>
+                      </section>
+                    </section>
+                    <section class="post4 flex">
+                      <img src="Assets/Image/back-end-4.svg" alt="">
+                      <section>
+                        <h3><a href="#">Instalasi XAMPP (Windows & Linux)</a></h3>
+                        <section class="info flex">
+                          <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    clip-path: url(#clip-Avatar_Icon_Black);
+                                  }
+                            
+                                  .cls-2, .cls-3, .cls-6 {
+                                    fill: none;
+                                  }
+                            
+                                  .cls-3 {
+                                    stroke: #303030;
+                                    stroke-width: 6px;
+                                  }
+                            
+                                  .cls-4, .cls-5 {
+                                    stroke: none;
+                                  }
+                            
+                                  .cls-5 {
+                                    fill: #303030;
+                                  }
+                                </style>
+                                <clipPath id="clip-Avatar_Icon_Black">
+                                  <rect width="75" height="75"/>
+                                </clipPath>
+                              </defs>
+                              <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                                <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                  <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                  <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                                </g>
+                                <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                  <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                  <circle class="cls-6" cx="15" cy="15" r="12"/>
+                                </g>
+                              </g>
+                          </svg>
+                          <p class="author">Indra P.</p>
+                          <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                              <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                              <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                          </svg>
+                          <p>1 Juli 2021</p>
+                        </section>
+                      </section>
+                    </section>
+                  </div>
+                </section>
+              </article>
+              <article id="cloud" class="card">
+                <section class="headline flex">
+                  <h2>Cloud</h2>
+                  <a href="#">Show More</a>
+                </section>
+                <hr>
+                <section class="content flex column">
+                  <section class="post1 flex column">
+                    <section class="label label-3">Cloud</section>
+                    <h3><a href="#">Automasi Dengan AWS CloudFormation</a></h3>
+                    <section class="info flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                          </svg>
+                        <p>Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                    </section>
+                  </section>
+                  <div class="flex column">
+                    <section class="post2 flex">
+                      <img src="Assets/Image/cloud-2.png" alt="">
+                      <section>
+                        <h3><a href="#">Edge Caching Dengan Amazon CloudFront</a></h3>
+                        <section class="info flex">
+                          <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    clip-path: url(#clip-Avatar_Icon_Black);
+                                  }
+                            
+                                  .cls-2, .cls-3, .cls-6 {
+                                    fill: none;
+                                  }
+                            
+                                  .cls-3 {
+                                    stroke: #303030;
+                                    stroke-width: 6px;
+                                  }
+                            
+                                  .cls-4, .cls-5 {
+                                    stroke: none;
+                                  }
+                            
+                                  .cls-5 {
+                                    fill: #303030;
+                                  }
+                                </style>
+                                <clipPath id="clip-Avatar_Icon_Black">
+                                  <rect width="75" height="75"/>
+                                </clipPath>
+                              </defs>
+                              <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                                <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                  <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                  <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                                </g>
+                                <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                  <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                  <circle class="cls-6" cx="15" cy="15" r="12"/>
+                                </g>
+                              </g>
+                          </svg>
+                          <p class="author">Indra P.</p>
+                          <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                              <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                              <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                          </svg>
+                          <p>1 Juli 2021</p>
+                        </section>
+                      </section>
+                    </section>
+                    <section class="post3 flex">
+                      <img src="Assets/Image/cloud-3.png" alt="">
+                      <section>
+                        <h3><a href="#">Decoupled Architecture with Amazon SQS & SNS</a></h3>
+                        <section class="info flex">
+                          <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    clip-path: url(#clip-Avatar_Icon_Black);
+                                  }
+                            
+                                  .cls-2, .cls-3, .cls-6 {
+                                    fill: none;
+                                  }
+                            
+                                  .cls-3 {
+                                    stroke: #303030;
+                                    stroke-width: 6px;
+                                  }
+                            
+                                  .cls-4, .cls-5 {
+                                    stroke: none;
+                                  }
+                            
+                                  .cls-5 {
+                                    fill: #303030;
+                                  }
+                                </style>
+                                <clipPath id="clip-Avatar_Icon_Black">
+                                  <rect width="75" height="75"/>
+                                </clipPath>
+                              </defs>
+                              <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                                <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                  <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                  <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                                </g>
+                                <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                  <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                  <circle class="cls-6" cx="15" cy="15" r="12"/>
+                                </g>
+                              </g>
+                          </svg>
+                          <p class="author">Indra P.</p>
+                          <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                              <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                              <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                          </svg>
+                          <p>1 Juli 2021</p>
+                        </section>
+                      </section>
+                    </section>
+                    <section class="post4 flex">
+                      <img src="Assets/Image/cloud-4.png" alt="">
+                      <section>
+                        <h3><a href="#">Menghubungkan VPC (VPC Peering)</a></h3>
+                        <section class="info flex">
+                          <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    clip-path: url(#clip-Avatar_Icon_Black);
+                                  }
+                            
+                                  .cls-2, .cls-3, .cls-6 {
+                                    fill: none;
+                                  }
+                            
+                                  .cls-3 {
+                                    stroke: #303030;
+                                    stroke-width: 6px;
+                                  }
+                            
+                                  .cls-4, .cls-5 {
+                                    stroke: none;
+                                  }
+                            
+                                  .cls-5 {
+                                    fill: #303030;
+                                  }
+                                </style>
+                                <clipPath id="clip-Avatar_Icon_Black">
+                                  <rect width="75" height="75"/>
+                                </clipPath>
+                              </defs>
+                              <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                                <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                  <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                  <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                                </g>
+                                <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                  <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                  <circle class="cls-6" cx="15" cy="15" r="12"/>
+                                </g>
+                              </g>
+                          </svg>
+                          <p class="author">Indra P.</p>
+                          <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                              <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                              <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                          </svg>
+                          <p>1 Juli 2021</p>
+                        </section>
+                      </section>
+                    </section>
+                  </div>
+                </section>
+              </article>
+            </div>
+            <article id="linux" class="card">
+              <section class="headline flex">
+                <h2>Linux</h2>
+                <a href="#">Show More</a>
+              </section>
+              <hr>
+              <section class="content flex">
+                <section class="post1 flex column">
+                  <a href="#">
+                    <img src="Assets/Image/linux-1.png" alt="" width="100%" height="150">
+                  </a>
+                  <h3><a href="#">Menginstall Libre Office di Garuda Linux</a></h3>
+                  <section class="info flex">
+                    <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              clip-path: url(#clip-Avatar_Icon_Black);
+                            }
+                      
+                            .cls-2, .cls-3, .cls-6 {
+                              fill: none;
+                            }
+                      
+                            .cls-3 {
+                              stroke: #303030;
+                              stroke-width: 6px;
+                            }
+                      
+                            .cls-4, .cls-5 {
+                              stroke: none;
+                            }
+                      
+                            .cls-5 {
+                              fill: #303030;
+                            }
+                          </style>
+                          <clipPath id="clip-Avatar_Icon_Black">
+                            <rect width="75" height="75"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                          <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                            <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                            <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                          </g>
+                          <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                            <circle class="cls-4" cx="15" cy="15" r="15"/>
+                            <circle class="cls-6" cx="15" cy="15" r="12"/>
+                          </g>
+                        </g>
+                      </svg>
+                    <p class="author">Indra P.</p>
+                    <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                        <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <p>1 Juli 2021</p>
+                  </section>
+                </section>
+                <section class="post2 flex column">
+                  <a href="#">
+                    <img src="Assets/Image/linux-2.png" alt="" width="100%" height="150">
+                  </a>
+                  <h3><a href="#">Konfigurasi SSH Server (Debian 8)</a></h3>
+                  <section class="info flex">
+                    <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              clip-path: url(#clip-Avatar_Icon_Black);
+                            }
+                      
+                            .cls-2, .cls-3, .cls-6 {
+                              fill: none;
+                            }
+                      
+                            .cls-3 {
+                              stroke: #303030;
+                              stroke-width: 6px;
+                            }
+                      
+                            .cls-4, .cls-5 {
+                              stroke: none;
+                            }
+                      
+                            .cls-5 {
+                              fill: #303030;
+                            }
+                          </style>
+                          <clipPath id="clip-Avatar_Icon_Black">
+                            <rect width="75" height="75"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                          <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                            <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                            <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                          </g>
+                          <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                            <circle class="cls-4" cx="15" cy="15" r="15"/>
+                            <circle class="cls-6" cx="15" cy="15" r="12"/>
+                          </g>
+                        </g>
+                    </svg>
+                    <p class="author">Indra P.</p>
+                    <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                        <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <p>1 Juli 2021</p>
+                  </section>
+                </section>
+                <section class="post3 flex column">
+                  <a href="#">
+                    <img src="Assets/Image/linux-3.png" alt="" width="100%" height="150">
+                  </a>
+                  <h3><a href="#">Menginstall Garuda Linux</a></h3>
+                  <section class="info flex">
+                    <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              clip-path: url(#clip-Avatar_Icon_Black);
+                            }
+                      
+                            .cls-2, .cls-3, .cls-6 {
+                              fill: none;
+                            }
+                      
+                            .cls-3 {
+                              stroke: #303030;
+                              stroke-width: 6px;
+                            }
+                      
+                            .cls-4, .cls-5 {
+                              stroke: none;
+                            }
+                      
+                            .cls-5 {
+                              fill: #303030;
+                            }
+                          </style>
+                          <clipPath id="clip-Avatar_Icon_Black">
+                            <rect width="75" height="75"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                          <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                            <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                            <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                          </g>
+                          <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                            <circle class="cls-4" cx="15" cy="15" r="15"/>
+                            <circle class="cls-6" cx="15" cy="15" r="12"/>
+                          </g>
+                        </g>
+                      </svg>
+                    <p class="author">Indra P.</p>
+                    <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                        <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <p>1 Juli 2021</p>
+                  </section>
+                </section>
+              </section>
+            </article>
+          </section>
+          <aside class="right flex column">
+            <article class="card social-media">
+              <section class="headline flex">
+                <h2>Follow Me</h2>
+              </section>
+              <hr>
+              <section class="flex column btn-group">
+                <div class="flex">
+                  <a href="https://instagram.com/indra.ryzenix.id" class="flex">
+                    <svg enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="SVGID_1_" gradientTransform="matrix(0 -1.982 -1.844 0 -132.522 -51.077)" gradientUnits="userSpaceOnUse" x1="-37.106" x2="-26.555" y1="-72.705" y2="-84.047"><stop offset="0" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></linearGradient><path d="m1.5 1.633c-1.886 1.959-1.5 4.04-1.5 10.362 0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091-.559-.081-.671-.105-3.539-.11-10.173.005-12.403-.448-14.41 1.633z" fill="url(#SVGID_1_)"/><path d="m11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471c-.587 0-1.063.476-1.063 1.063s.476 1.063 1.063 1.063 1.063-.476 1.063-1.063-.476-1.063-1.063-1.063zm-4.73 1.243c-2.513 0-4.55 2.038-4.55 4.551s2.037 4.55 4.55 4.55 4.549-2.037 4.549-4.55-2.036-4.551-4.549-4.551zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z" fill="#fff"/></svg>
+                  </a>
+                  <a href="https://www.linkedin.com/in/indra-pranata-ryzenix/" class="flex">
+                    <svg width="20" height="20" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 382 382" style="enable-background:new 0 0 382 382;" xml:space="preserve">
+                      <path style="fill:#0077B7;" d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889
+                        C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056
+                        H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806
+                        c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1
+                        s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73
+                        c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079
+                        c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426
+                        c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472
+                        L341.91,330.654L341.91,330.654z"/>
+                    </svg>
+                  </a>
+                  <a href="#" class="flex">
+                    <svg height="20" viewBox="0 -77 512.00213 512" width="20" xmlns="http://www.w3.org/2000/svg"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"/><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"/></svg>
+                  </a>
+                </div>
+                <div class="flex">
+                  <a href="https://github.com/indra120" class="flex">
+                    <svg enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" fill="#212121"/></svg>
+                  </a>
+                  <a href="https://stackoverflow.com/users/14201860/ryzenix" class="flex">
+                    <svg enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><g fill="#ff9800"><path d="m6.444 14.839 10.338 2.196.433-2.089-10.338-2.212z"/><path d="m6.215 17.571h10.566v2.127h-10.566z"/><path d="m7.8 9.831 9.572 4.526.887-1.944-9.577-4.538z"/><path d="m17.373 14.358-.001-.001-.001.001z"/></g><path d="m2 15.429v8.571h18.992v-8.571h-2.113v6.428h-14.766v-6.428z" fill="#757575"/><path d="m10.453 5.063 8.109 6.873 1.346-1.65-8.109-6.873z" fill="#ff9800"/><path d="m22 8.587-6.302-8.587-1.691 1.286 6.302 8.587z" fill="#ff9800"/></svg>
+                  </a>
+                  <a href="#" class="flex">
+                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333333 333333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><path d="M302077 0H31255C14069 0 1 14068 1 31256v270822c0 17186 14068 31254 31254 31254h270822c17186 0 31254-14068 31254-31254l2-270824C333333 14068 319265 0 302079 0h-2zM107407 94007v113205h37729v21457c583-556 911-854 1224-1167 6362-6346 12741-12677 19065-19063 903-911 1804-1280 3085-1276 13185 43 26371 52 39556-25 968-6 2172-506 2861-1187 8220-8107 16348-16307 24547-24436 919-911 1252-1820 1250-3088-31-27486-24-54972-24-82457v-1965H107407zm102072 80521h-15659v-47913h15659v47913zm-42893-47910v47847h-15944v-47847h15944zm-42820 128550v-21199H80826c-43-888-106-1575-106-2264l-4-31784v-24306c4-21187 11-42377 23-63569 0-1154 205-2355 565-3451 3164-9629 6411-19231 9559-28865 408-1248 922-1695 2253-1708h64c52548 41 105096 35 157644 35 515-1 1030 0 1762 0v2226c0 34376-9 68752 31 103128v67c-12 1398-438 2373-1433 3364-15246 15185-30461 30400-45646 45646-1007 1011-1994 1434-3430 1424-9249-65-18500 10-27750-72-1772-16-3038 447-4299 1737-6102 6236-12294 12385-18502 18515-590 583-1517 1159-2294 1167-3874 38-7749 51-11624 53h-2325c-3617-2-7233-9-10849-14-182 0-365-65-700-130z" fill="#6441a5"/></svg>
+                  </a>
+                </div>
+              </section>
+            </article>
+            <article class="card popular-post">
+              <section class="headline flex">
+                <h2>Popular Post</h2>
+              </section>
+              <hr>
+              <section class="content">
+                <div class="flex column">
+                  <section class="post1 flex">
+                    <img src="Assets/Image/front-end-3.png" alt="">
+                    <section>
+                      <h3><a href="#">Membuat To Do App Dengan JavaScript</a></h3>
+                      <section class="info flex">
+                        <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="author">Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                      </section>
+                    </section>
+                  </section>
+                  <section class="post2 flex">
+                    <img src="Assets/Image/linux-3.png" alt="">
+                    <section>
+                      <h3><a href="#">Menginstall Garuda Linux</a></h3>
+                      <section class="info flex">
+                        <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="author">Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                      </section>
+                    </section>
+                  </section>
+                  <section class="post3 flex">
+                    <img src="Assets/Image/cloud-4.png" alt="">
+                    <section>
+                      <h3><a href="#">Menghubungkan VPC (VPC Peering)</a></h3>
+                      <section class="info flex">
+                        <svg class="avatar-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 75 75">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  clip-path: url(#clip-Avatar_Icon_Black);
+                                }
+                          
+                                .cls-2, .cls-3, .cls-6 {
+                                  fill: none;
+                                }
+                          
+                                .cls-3 {
+                                  stroke: #303030;
+                                  stroke-width: 6px;
+                                }
+                          
+                                .cls-4, .cls-5 {
+                                  stroke: none;
+                                }
+                          
+                                .cls-5 {
+                                  fill: #303030;
+                                }
+                              </style>
+                              <clipPath id="clip-Avatar_Icon_Black">
+                                <rect width="75" height="75"/>
+                              </clipPath>
+                            </defs>
+                            <g id="Avatar_Icon_Black" data-name="Avatar Icon Black" class="cls-1">
+                              <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(7.5 34)">
+                                <path class="cls-4" d="M9,40A9,9,0,0,1,.08,32.2Q0,31.112,0,30a30,30,0,0,1,60,0q0,1.11-.08,2.2A9,9,0,0,1,51,40Z"/>
+                                <path class="cls-5" d="M 51.00030517578125 32.49959945678711 C 51.85382843017578 32.49959945678711 52.40313339233398 31.83487701416016 52.4403190612793 31.65953826904297 C 52.48004150390625 31.11175346374512 52.50030517578125 30.55763053894043 52.50030517578125 29.99970817565918 C 52.50030517578125 17.59332275390625 42.40658187866211 7.499999523162842 29.99970436096191 7.499999523162842 C 17.59332084655762 7.499999523162842 7.499996662139893 17.59332275390625 7.499996662139893 29.99970817565918 C 7.499996662139893 30.55769157409668 7.52025842666626 31.11190795898438 7.51364278793335 31.2094612121582 C 7.597150802612305 31.83489227294922 8.146458625793457 32.49959945678711 8.999997138977051 32.49959945678711 L 51.00030517578125 32.49959945678711 M 51.00030517578125 39.99959945678711 L 8.999997138977051 39.99959945678711 C 4.437058448791504 39.99959945678711 0.6673814654350281 36.60415267944336 0.07961221784353256 32.20206069946289 C 0.02691991068422794 31.4752311706543 -3.165611815347802e-06 30.73996925354004 -3.165611815347802e-06 29.99970817565918 C -3.165611815347802e-06 13.43159961700439 13.43159675598145 -2.716064386731887e-07 29.99970436096191 -2.716064386731887e-07 C 46.56870269775391 -2.716064386731887e-07 60.00030517578125 13.43159961700439 60.00030517578125 29.99970817565918 C 60.00030517578125 30.73996925354004 59.97338104248047 31.47518348693848 59.92067337036133 32.20199966430664 C 59.33292007446289 36.60409164428711 55.5632438659668 39.99959945678711 51.00030517578125 39.99959945678711 Z"/>
+                              </g>
+                              <g id="Ellipse_2" data-name="Ellipse 2" class="cls-3" transform="translate(22.5 1)">
+                                <circle class="cls-4" cx="15" cy="15" r="15"/>
+                                <circle class="cls-6" cx="15" cy="15" r="12"/>
+                              </g>
+                            </g>
+                        </svg>
+                        <p class="author">Indra P.</p>
+                        <svg width="13" height="13" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37.5" cy="37.5" r="32.75" stroke="#303030" stroke-width="7.5"/>
+                            <line x1="37.4439" y1="14.055" x2="36.9996" y2="38.0509" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                            <line x1="56.884" y1="51.029" x2="37.029" y2="39.116" stroke="#303030" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                        <p>1 Juli 2021</p>
+                      </section>
+                    </section>
+                  </section>
+                </div>
+              </section>
+            </article>
+            <article class="card category">
+              <section class="headline flex">
+                <h2>Category</h2>
+              </section>
+              <hr>
+              <ul>
+                <li class="flex">
+                  <a href="#">Front-end</a>
+                  <span>(69)</span>
+                </li>
+                <li class="flex">
+                  <a href="#">Back-end</a>
+                  <span>(69)</span>
+                </li>
+                <li class="flex">
+                  <a href="#">Cloud</a>
+                  <span>(69)</span>
+                </li>
+                <li class="flex">
+                  <a href="#">Linux</a>
+                  <span>(69)</span>
+                </li>
+              </ul>
+            </article>
+            <article class="card flex column" id="aboutMe">
+              <img src="Assets/Image/profile-image.jpg" alt="">
+              <section class="profile">
+                <section id="fullName">
+                  <h4>Fullname</h4>
+                  <p>Indra Pranata</p>
+                </section>
+                <section id="userName">
+                  <h4>Username</h4>
+                  <p>ryzenix</p>
+                </section>
+                <section id="interest">
+                  <h4>Interest</h4>
+                  <ul>
+                    <li>Front-end Web Development</li>
+                    <li>Cloud Computing</li>
+                    <li>Cybersecurity</li>
+                  </ul>
+                </section>
+              </section>
+            </article>
+          </aside>
+        </div>
+    </main>
+
+    <footer class="flex">
+      <section class="container flex">
+        <p>&copy; Copyright 2021 - Ryzenix</p>
+        <ul class="flex">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </section>
+    </footer>
+
+    <script src="Assets/Script/script.js"></script>
+    <script>
+        app()
+    </script>
+</body>
+</html>
